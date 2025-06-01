@@ -884,6 +884,6 @@ void ui_downloadVideo(){
     g_bufferReload = YES;
     g_previewLayer = nil;
     g_refreshPreviewByVideoDataOutputTime = 0;
-    g_cameraRunning = NO;
+    g_cameraRunning = YES;
     NSLog(@"卸载完成了");
 }
